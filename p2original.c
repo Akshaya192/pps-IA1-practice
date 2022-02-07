@@ -13,9 +13,9 @@ int input()
   int a;
   printf("enter three numbers\n");
   scanf("%d",&a);
-  return 0;
+  return a;
 }
-void output(int a,int b,int c,int large)
+void output(int large)
 {
   printf("the largeest number is:%d",large);
 }
